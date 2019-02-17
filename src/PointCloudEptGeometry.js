@@ -140,6 +140,7 @@ export class PointCloudEptGeometryNode extends PointCloudTreeNode {
 				z);
 
 		this.id = PointCloudEptGeometryNode.IDCount++;
+		this.pcoGeometry = { "hierarchyStepSize": 1 };
 		this.geometry = null;
 		this.boundingBox = this.key.b;
 		this.tightBoundingBox = this.boundingBox;
